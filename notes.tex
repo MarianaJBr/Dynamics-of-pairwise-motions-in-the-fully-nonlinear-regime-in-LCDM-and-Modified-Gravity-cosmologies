@@ -1,0 +1,66 @@
+%%%% structure of the paper %%%%
+
+%%  %%%
+% \JGF{The information in the density field have been extracted using the two-point correlation function (2PCF), or its equivalent in Fourier space the power spectrum. The real-space correlation function is a key ingredient to connect model descriptions with observations which are naturally in redshift-space. There is a wide literature that explore the non-linear linear regime in both real and redshift-space from very different angles such standard perturbation theory (SPT) (see Scoccimarro, Taruya, Bernardeau, Gil-Marin, Crocce), regularized perturbation theory (RegPT), fitting formulae like Halofit (see Smith, Takahashi, Mead) and emulator approaches (see eg Coyote, Winther and Casas).}  
+
+% \JGF{The non-linear regime of structure formation has been also studied in connection to the velocity field to a lesser extent. In this context, the pair wise velocities plays a key role in understanding this regime, since they contain information of both the Hubble flow as well as peculiar motions driven by gravitational interactions. They are also a key ingredient in the redshift-space distortions modeling, which is a widely used technique to obtain constraints of the growth factor since it contains information of both the density and velocity field. There are several efforts for pairwise velocities like cosmic web analysis (see eg Hoffman), field reconstructions (see eg Nusser), observational (team Australia), complex systems (references needed). Other alternative to tackle this, was proposed in the early 1980s by Peebles from a thermodynamics point of view, leading to the BBGKY hierarchy of structure formation, in which the first moment of the hierarchy is the pair-conservation equation. The latter result was used by Juszkiewicz et al. \cite{Juszkiewicz_1999} with a perturbative approach of the correlation function at first order as well as modeling it as a power law to interpolation between linear and non-linear regime. This parametrization lies in a free parameter that represent the slope of the 2pcf allowing to cover a wider dynamical range than the linear approximations. This result was proposed to constraint $\Omega_m$ and test some models including non-zero curvature. Although this result provided a better description rather than linear theory, it is not good enough for expected observable quantities on very non-linear scales. In this paper we review the pair-conservation equation using some of the most accurate descriptions of the non-linear power spectrum to reach percent accuracy as well as extended the results for gravity models beyond \lcdm. In particular we
+% - consider the full pair-conservation equation (no only interpolated linear regime)\\
+% - used use full non-pk descriptions (halofit and clpt) as well self-consistent from pure N-body simulations.\\
+% - Validity for MG models\\
+% - we analyse the validity and issues when trying to extend it to DM halos.}
+
+%
+%
+%
+%
+%
+
+% \JGF{This paper is organized as follows: in section 2 we give introduction of the pair wise velocities and pair-conservation.
+% sect. 2 describe simulations and samples.
+% sect. 3 we describe the clustering and v12 results in real-space using non-pk prescriptions. 
+% sect. 4 we discuss our main findings and the validity for MG. 
+% sect. 5 we discuss the extension to halos and main issues, as future prospects. 
+% Finally, in sect. 6 we draw our concluding remarks.}
+
+
+%The structure of the Universe provides a lot of information about gravity and how matter clusters to form galaxies. There have been many recent advancements in understanding this structure, and several surveys aim to improve our knowledge of cosmological parameters and the nature of dark energy and dark matter. The very large scales have been studied using CMB data and galaxy surveys, which have helped us understand the standard cosmological model \lcdm. However, the middle and small scales present a challenge for current data, with recent research showing discrepancies between observational data sets for two important parameters in \lcdm: the Hubble parameter, $H_0$, and the $\sigma_8$ parameter.
+
+%\JGF{The large-scale structure of the Universe is one of the richest sources of information regarding the gravity mechanism that drive it. In the last few decades there have been an enormous progress in understanding how matter cluster to forms the observed galaxy distribution, for which several current and surveys want to increase precision and accuracy in the constraints of cosmological parameter for a set of models that helps to unveil the nature of gravity, dark energy and dark matter. The very large scales have been explored with CMB data as well as galaxy surveys, and are quite well understood under the paradigm of the standard cosmological model \lcdm. Even in the case the underline gravity theory differs from GR, most of the modified gravity modes agree well in this regime. Instead, the middle non-linear and non-linear scales represent a challenge for current data. In fact, recent research have shown severe discrepancy between different observational data sets for two of the cornerstone parameters of the \lcdm model, the Hubble parameter and the $\sigma_8$ parameter.} 
+
+
+% \SG{In this work, we use data generated from the suite of DM-only MG $N$-body simulations: \textsc{ELEPHANT} (Extended LEnsing PHysics using ANalytic ray Tracing), introduced in \cite{ALAM2020_ELEPHANT}. These $N$-body simulations provide a good test-bed to study the impact of models implementing Chameleon \cite{Khoury2003PRD}, and Vainshtein \cite{Vainshtein_1972} screening mechanisms, on large scale non-linear clustering of matter.}
+
+% \SG{In $f(R)$, the standard Einstein-Hilbert action induces an additional function of the Ricci curvature $R$, termed as $f(R)$. This function quantifies the interaction between an additional scalar field (or scalaron) and matter, and hence defines the fifth-force. Chameleon screening allows for the evolution of scalaron, with the possibility of minimal coupling to matter. Here, the amplitude of the scalaron is determined by the interplay of the field’s self-interactions, and conformal couplings of the scalar field. Combined effect of the two interactions gives a global minimum of the potential which below a length scales, suppresses the fifth force and recovers GR. This length scale, called the Compton wavelength, is determined by the mass of the scalaron.}
+
+% \SG{nDGP gravity model, on the other hand, includes the possibility of the propagation of gravity from 4-dimensional brane, to 5-dimensional space-time. Here, the scalar field, and hence the fifth-force is manifested as displacements of the brane, called as the brane-bending modes. In the Vainshtein screening, the brane bending mode has a large second-order term in the equation of motion. Once this second-order term dominates over the linear term, the scalar mode is hidden and the solutions for metric perturbations approach GR solutions. For a static spherically symmetric source, we can identify the length scale below which the second-order interaction becomes important. This length scale
+% is known as the \textit{Vainshtein radius}.}
+
+% \SG{These $N$-body simulations employ the standard cosmological model, \lcdm, and variants of two families of the MG theories described above: normal branch of the Dvali-Gabadadze-Porrati (nDGP) model \cite{ndgp_2000} with Vainshtein screening \cite{Vainshtein_1972}, N1 and N5; and the Hu-Sawicki form of $f(R)$ with Chameleon screening \cite{HS_fR_2007}: F5 and F6.}
+
+% \SG{These simulations were run using the \textsc{ecosmog} code \cite{ECOSMOG_1,ECOSMOG_V_1,ECOSMOG_2}, for 1024$^{3}$ particles, in a box of size 1024 h/Mpc, from $z_\mathrm{in}=49$, down to $z_\mathrm{f}=0$. The mass resolution is $m_p=7.798\times10^{10}M_{\odot}h^{-1}$, and comoving force resolution of $\varepsilon=15$\kpch. For each model and each redshift, we have five independent realisations. Each MG model has the same fiducial background, with cosmological parameters: $\Omega_m=0.281$ (total fractional non-relativistic matter density), $\Omega_b = 0.046$ (fractional baryonic matter density),
+% $\Omega_\nu = 0.0$ (fractional relativistic matter species density), $\Omega_{\Lambda}=0.719$ (cosmological constant
+% energy density), $\Omega_k=0$ (fractional curvature energy density), $h=0.697$ (Hubble constant in units of 100 \kps\,Mpc$^{-1}$), $n_s = 0.971$ (primordial power spectrum slope), and $\sigma_8 = 0.842$ (linearly extrapolated
+% \lcdm{} power spectrum normalization). We analyse the simulation snapshots at $z = 0, 0.3$ and $0.5$. }
+
+
+%SG: I am including all the pervious work known to me, you can modify :)
+%\SG{For the models that deviate from the standard GR paradigm,  such that the whole class of Modified Gravity (MG) scenarios, there had been a significant effort in the literature to compute the power spectrum in these models, beyond linear regime: either using simulations \citep{PhysRevD.78.123524, Alam_2021}, perturbation theory \citep{PhysRevD.79.123512},  post-Friedman formalism (PPF)  \citep{PhysRevD.76.104043}, spherical collapse \citep{10.1093/mnras/stv2036}. MG-Halofit has been propsed in \citep{Zhao_2014} specifically for $f(R)$. Nonetheless, it is important to acknowledge that these works rely on several underlying assumptions, and possess certain limitations, thereby restricting their applicability and generality.}
+%\SG{Instead, we focus on the analytical approach proposed in \cite{2023PhRvD.107h3525G} to compute the MG non-linear matter power spectrum.  This approach relies on two primary inputs:}
+%\begin{enumerate}
+%    \item Halo model (HM) construction for both MG and \lcdm{}.
+%    \item User-specified input to compute the non-linear power spectrum for \lcdm{}
+%\end{enumerate}
+%
+%\SG{The details of the first input are explained in \cite{2023PhRvD.107h3525G}. This study specifically focuses on $f(R)$ and nDGP modified gravity models, although the approach can be readily extended to other modified structure formation models. Also, the accuracy of this approach is limited to the performance of the input \lcdm{} predictions. }
+%
+%\SG{Here, the resultant MG non-linear matter power spectrum, $P(k)_{nl, MG}(k)$ is given by: }
+%\begin{equation}
+%    P(k)_{nl, MG}(k) = \Upsilon_{HM}(k) \times P(k)_{nl, \Lambda CDM}(k)
+%\end{equation}
+%\SG{Here, $\Upsilon_{HM}(k)$ is the ratio of the halo model predictions of MG to \lcdm{} power spectrum, i.e.,  $\Upsilon(k)_{HM} = P(k)_{MG, HM}/P(k)_{\Lambda CDM, HM}$. $P(k)_{\Lambda \text{CDM}}$ is the non-linear \lcdm\ power spectrum. This quantity is specific to each user's preferences. For our analysis, we utilize the \code{halofit} predictions for $P(k)_{\Lambda CDM}$, employing the parameters corresponding to the given background cosmology.}
+
+
+
+ %The main idea is that the geometry is modified by introducing a new dof driving the acceleration of the Universe which, in the simplest case of a scalar field, would be suppressed in high-density or high-curvature environments. Several screening mechanisms have been proposed (cite Joyce 2015, Brax+2015, Koyama 2016) but we focus on two cases: when the screening results from one of the following properties: large mass of the field in high density regions, suppressing the range of the fifth force. In low-density environments then, the scalar field mass is small and mediates the long-range fifth force. This type of screening mechanisms are known as chameleons (cite Khoury+2004).  In the second case we consider, the 
+
+
